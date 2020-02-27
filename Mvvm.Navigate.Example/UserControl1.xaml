@@ -8,9 +8,10 @@
              d:DesignHeight="280"
              d:DesignWidth="280">
     <Grid>
+        <Label Content="You are on view 1" Grid.Row="0"/>
         <Button
             Content="Go to View 2"
             Command="{Binding GoTo2}"
-            Width="90" Height="30" />
+            Width="90" Height="30" Grid.Row="1" />
     </Grid>
 </UserControl>
